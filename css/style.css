@@ -1,4 +1,89 @@
-.img-overflow{
-    /* overflow: hidden; */
-    border-radius: 100px;
+/* installed font */
+@font-face {
+    font-family: futura;
+    src: url(../font/FutuLt.ttf);
 }
+
+@font-face {
+    font-family: righteous;
+    src: url(../font/Righteous-Regular.ttf);
+}
+
+body{
+    max-width: 360px;
+    max-height: 640px;
+}
+
+@media only screen and (min-width: 361px) {
+    body {
+        background-color: lightblue;
+        margin: 0 auto;
+    }
+}
+/* .container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+} */
+
+.banner{
+    width: 360px;
+    height: 640px;
+    background-color: #6E6E6E;
+}
+
+.box{
+    padding-top:1px;
+}
+
+.banner-title{
+    font-family: righteous, sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    border-left: 3px solid white;
+    padding-left: 10px;
+    margin-top: 379px;
+    color: white;
+}
+
+p.banner-title span {
+    font-size: 34px;
+}
+
+.banner-subtitle {
+    font-family: futura, sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    color: white;
+}
+
+.menu {
+    width: 360px;
+    height: 640px;
+    background-color: #fff;
+}
+
+.menu-title {
+    font-family: righteous, sans-serif;
+    font-size: 29px;
+    margin-top: 30px;
+    padding-left: 0px;
+    color: #707070;
+    text-align: center;
+}
+
+.menu-subtitle {
+    font-family: futura, sans-serif;
+    font-size: 15px;
+    padding-left: 0px;
+    color: #707070;
+    text-align: center;
+    padding: 0 45px;
+}
+
+.menu-img {
+    background-color: #6e6e6e;
+    height: 420px;
+    width: 360px;
+    margin-top: 25px;
+}
+
