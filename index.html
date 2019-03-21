@@ -14,7 +14,7 @@
 <body>
 
     <div class="container">
-        <div class="bar-menu">
+        <div class="bar-menu" onclick="on()">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
                 class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512">
@@ -25,6 +25,16 @@
         </div>
     </div>
 
+    <section id="overlay" onclick="off()">
+        <div class="navigation-menu-box">
+            <p class="navigation-menu-text">MENU</p>
+            <a href="index.html">Home</a>
+            <br>
+            <a href="/page/blog.html">Blog</a>
+            <br>
+            <a href="/page/about.html">Tentang Kami</a>
+        </div>
+    </section>
 
     <section class="banner">
         <div class="container">
@@ -106,7 +116,7 @@
             <div class="footer-img-box">
                 <img src="/img/logo.jpg" alt="logo babi guling bu dipa">
             </div>
-            <p class="footer-title">Tentang Kami</p>
+            <p class="footer-title">Babi Guling Bu Dipa</p>
             <p class="footer-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut ornare
                 risus.
                 Donec lacinia augue
@@ -156,9 +166,17 @@
                     </svg>
                 </div>
             </div>
+
+            <form method="POST" action="https://formspree.io/YOUREMAILHERE">
+                <input type="email" name="email" placeholder="Your email">
+                <textarea name="message" placeholder="Test Message"></textarea>
+                <button type="submit">Send Test</button>
+            </form>
+
             <p class="footer-year">2019 | DipadanaPutu</p>
         </div>
     </footer>
+
 
 
     <script src="js/index.js"></script>

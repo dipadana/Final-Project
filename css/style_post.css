@@ -1,0 +1,211 @@
+/* installed font */
+@font-face {
+    font-family: futura;
+    src: url(../font/FutuLt.ttf);
+}
+
+@font-face {
+    font-family: righteous;
+    src: url(../font/Righteous-Regular.ttf);
+}
+
+body{
+    max-width: 100%;
+    max-height: 640px;
+    background-color: #F5F5F5;
+}
+
+@media only screen and (max-width: 340px) {
+    body {
+        margin: 0 auto;
+        max-width: 360px;
+        max-height: 640px;
+    }
+}
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.footer {
+    /* width: 360px; */
+    height: 640px;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+}
+
+.footer-img-box{
+    margin: 0 auto;
+    width: 284px;
+    height: 199px;
+}
+
+.footer-img-box img{
+    width: 100%;
+    margin-top:  0px;
+}
+
+.footer-title{
+    font-family: righteous;
+    font-size: 29px;
+    text-align: center;
+    color: #707070;
+    margin-top: 75px;
+}
+
+.footer-subtitle{
+    font-family: futura;
+    font-size: 15px;
+    text-align: center;
+    color: #707070;
+    padding: 0 45px; 
+}
+
+.social-media-icon{
+    width: 25px;
+    height: 25px;
+    margin: 40px 10px 0;
+}
+
+.social-media-icon a svg{
+    color: #707070;
+}
+
+.social-media-icon svg{
+    color: #707070;
+}
+
+.footer-year{
+    font-family: futura;
+    font-size: 12px;
+    color: #6E6E6E;
+    text-align: center;
+    line-height: 15px;
+    margin-top: 70px;
+}
+
+.nav-bar{
+    max-width: 360px;
+    max-height: 53px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav-bar-title{
+    font-family: righteous;
+    font-size: 17px;
+    margin-left: 45px; 
+    padding: 13px 0;
+    margin-bottom: 15px;
+    color: #707070;
+}
+
+.post-box{
+    width: 324px;
+    /* height: 390px; */
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px 0;
+    position: relative;
+}
+
+.post-title{
+    font-family: righteous;
+    font-size: 21px;
+    margin-left: 30px;
+    border-left: 3px solid #707070;
+    padding-left: 5px;
+    color: #707070;
+}
+
+.post-date{
+    font-family: futura;
+    font-size: 12px;
+    margin-left: 39px;
+    color: #707070;
+    margin-top: -15px;
+}
+
+.post-img-box{
+    width: 324px;
+    height: 155px;
+    background-color: lightgrey ;
+}
+
+.post-detail{
+    font-family: futura;
+    font-size: 15px;
+    padding: 15px 15px 0 35px;
+}
+
+.post-next-btn{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 13px;
+    bottom: 13px;
+    
+}
+
+.bar-menu{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 33px; 
+    top: 10px;
+    color: #707070;
+    cursor: pointer;
+}
+
+.post-next-btn-detail{
+    width: 20px;
+    height: 20px;
+}
+
+.next-title{
+    font-family: futura;
+    margin-right: 5px;
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 360px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #707070;
+    z-index: 10;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.navigation-menu-box{
+    width: 360px;
+    height: 100vh;
+    background-color: grey;
+    padding: 1px;
+}
+
+.navigation-menu-text{
+    color: #fff;
+    font-family: righteous;
+    font-size: 42px;
+    margin-top: 40px;
+    margin-left:40px; 
+    border-left: 3px solid #fff;
+    padding-left: 8px;
+}
+
+.navigation-menu-box a{
+    color: white;
+    font-family: futura;
+    font-size: 25px;
+    margin: 55px;
+}
