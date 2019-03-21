@@ -87,6 +87,7 @@ p.banner-title span {
     height: 420px;
     width: 360px;
     margin-top: 25px;
+    overflow: hidden;
 }
 
 /* Hide the images by default */
@@ -102,7 +103,7 @@ p.banner-title span {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: white !important;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -118,7 +119,7 @@ p.banner-title span {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(156, 156, 156, 0.8);
 }
 
 /* The dots/bullets/indicators */
@@ -178,7 +179,7 @@ p.banner-title span {
     font-size: 29px;
     text-align: center;
     color: #707070;
-    margin-top: 75px;
+    margin-top: 85px;
 }
 
 .footer-subtitle{
@@ -187,12 +188,13 @@ p.banner-title span {
     text-align: center;
     color: #707070;
     padding: 0 45px; 
+    margin-top: 20px;
 }
 
 .social-media-icon{
     width: 25px;
     height: 25px;
-    margin: 20px 10px 0;
+    margin: 20px 10px 10px;
 }
 
 .social-media-icon a svg{
@@ -258,6 +260,21 @@ p.banner-title span {
     margin-left:40px; 
     border-left: 3px solid #fff;
     padding-left: 8px;
+}
+
+.navigation-menu-footer{
+    color: #fff;
+    font-family: righteous;
+    font-size: 20px;
+    margin-top: 190px;
+    margin-left: 57px; 
+}
+
+.navigation-menu-footer-2{
+    color: #fff;
+    font-family: futura;
+    font-size: 15px;
+    margin-left: 57px; 
 }
 
 .navigation-menu-box a{

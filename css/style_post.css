@@ -209,3 +209,18 @@ body{
     font-size: 25px;
     margin: 55px;
 }
+
+.navigation-menu-footer{
+    color: #fff;
+    font-family: righteous;
+    font-size: 20px;
+    margin-top: 190px;
+    margin-left: 57px; 
+}
+
+.navigation-menu-footer-2{
+    color: #fff;
+    font-family: futura;
+    font-size: 15px;
+    margin-left: 57px; 
+}
