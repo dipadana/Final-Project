@@ -14,9 +14,9 @@ body{
     max-height: 640px;
 }
 
-@media only screen and (min-width: 361px) {
+@media only screen and (min-width: 320px) {
     body {
-        background-color: lightblue;
+        background-color: rgb(239, 239, 239);
         margin: 0 auto;
     }
 }
@@ -29,6 +29,7 @@ body{
     width: 360px;
     height: 640px;
     background-color: #6E6E6E;
+    background-image: url(../img/3_crop.jpg);
 }
 
 .box{
@@ -43,6 +44,7 @@ body{
     padding-left: 10px;
     margin-top: 379px;
     color: white;
+    text-shadow: 2px 2px 4px rgb(100, 100, 100);
 }
 
 p.banner-title span {
@@ -54,6 +56,7 @@ p.banner-title span {
     font-size: 15px;
     padding-left: 15px;
     color: white;
+    text-shadow: 2px 2px 4px rgb(100, 100, 100);
 }
 
 .menu {
@@ -68,6 +71,7 @@ p.banner-title span {
     font-family: righteous, sans-serif;
     font-size: 29px;
     margin-top: 30px;
+    margin-bottom: 10px;
     padding-left: 0px;
     color: #707070;
     text-align: center;
@@ -98,7 +102,7 @@ p.banner-title span {
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 70%;
+    top: 65%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -198,6 +202,10 @@ p.banner-title span {
     color: #707070;
 }
 
+.social-media-icon svg{
+    color: #707070;
+}
+
 .footer-year{
     font-family: futura;
     font-size: 12px;
@@ -205,4 +213,70 @@ p.banner-title span {
     text-align: center;
     line-height: 15px;
     margin-top: 70px;
+}
+
+.bar-menu{
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    margin-left: 15px; 
+    margin-top: 15px;
+    color: rgba(156, 155, 155, 0.605);
+}
+
+.nav-space{
+    max-width: 360px;
+    max-height: 53px;
+}
+.nav-bar{
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav-bar-title{
+    font-family: righteous;
+    font-size: 17px;
+    margin-left: 45px; 
+    padding: 13px 0;
+    margin-bottom: 15px;
+}
+
+.post-box{
+    width: 324px;
+    height: 390px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+}
+
+.post-title{
+    font-family: righteous;
+    font-size: 21px;
+    margin-left: 30px;
+    border-left: 3px solid #707070;
+    padding-left: 5px;
+    color: #707070;
+}
+
+.post-date{
+    font-family: futura;
+    font-size: 12px;
+    margin-left: 39px;
+    color: #707070;
+    margin-top: -15px;
+}
+
+.post-img-box{
+    width: 324px;
+    height: 155px;
+    background-color: lightgrey ;
+}
+
+.post-detail{
+    font-family: futura;
+    font-size: 15px;
+    padding: 15px 15px 0 35px;
 }
