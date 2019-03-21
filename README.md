@@ -11,4 +11,4 @@
   ```
   ~ Di dalam Blog Page, untuk membaca artikel secara lengkap, harap menekan "tombol tanda panah di pojok kanan".
   
-  ~ Belum semua icon dan link berfungsi sebagai mana mestinya
+  ~ Untuk saat ini belum semua icon dan link berfungsi dengan sebagai mana mestinya
