@@ -90,6 +90,7 @@ body{
     background-color: #fff;
     margin: 0 auto;
     position: relative;
+    
 }
 
 .nav-bar-title{
@@ -109,6 +110,7 @@ body{
     margin: 20px auto;
     padding: 20px 0;
     position: relative;
+    box-shadow: 3px 3px 10px #707070;
 }
 
 .post-title{
