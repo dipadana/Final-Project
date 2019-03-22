@@ -2,6 +2,8 @@
   Project ini dibuat untuk memenuhi kebutuhan warung makan Babi Guling Bu Dipa. Merupakan situs yang berfungsi sebagai hub dan penghubung 
   bagi para pencari kuliner terkhusus babi guling.
   
+  situs ini sudah online dan bisa diakses melalui https://dev.babiguling.id
+  
   
 ### Note:   
   ```sh
