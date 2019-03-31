@@ -219,9 +219,9 @@ p.banner-title span {
     position: fixed;
     width: 25px;
     height: 25px;
-    margin-left: 15px; 
+    margin-left: 295px; 
     margin-top: 15px;
-    color: rgba(156, 155, 155, 0.605);
+    color: rgb(110, 110, 110);
     z-index: 9;
     cursor: pointer;
 }
