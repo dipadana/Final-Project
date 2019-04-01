@@ -299,3 +299,11 @@ form button {
     border: none;
     padding: 5px;
 }
+
+div.bar-menu-custom {
+    width: 28px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 0;
+    box-shadow: 1px 1px 1px lightgray;
+}
